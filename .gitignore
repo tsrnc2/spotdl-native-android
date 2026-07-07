@@ -1,0 +1,29 @@
+.gradle/
+build/
+app/build/
+
+# Local machine and signing material
+local.properties
+*.keystore
+*.jks
+release.properties
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.idsig
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Extracted/package-cache artifacts used while assembling native libraries.
+# The Gradle build uses app/src/main/jniLibs-pruned.
+app/src/main/jniLibs/
+third_party/
+
+# IDE/OS noise
+.idea/
+*.iml
+.DS_Store
